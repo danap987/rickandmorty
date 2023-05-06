@@ -2,15 +2,12 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.App>.Header {
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  grid-column: 12 span;
+  grid-row: 1 span;
+  color: var(--background-color);
+background-color: var(--primary-color);
 }
 
 .App-header {
@@ -24,15 +21,40 @@
   color: white;
 }
 
+.App>.Menu {
+
+  /* grid-column: 2 span;
+  grid-row: 10 span; */
+  grid-column: 12 span;
+  grid-row: 1 span;
+  background-color:var(--secondary-color);
+color: var(--secondary-color);
+
+}
+
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App>.Main {
+
+  /* grid-column: 10 span;
+  grid-row: 10 span; */
+  grid-column: 12 span;
+  grid-row: 9 span;
+  background-color:var(--background-color);
+  color: var(--primary-color);
+}
+
+
+.App>.Footer {
+
+  grid-column: 12 span;
+  grid-row: 1 span;
+  color: var(--background-color);
+  background-color: var(--primary-color);
+}
+
+.App button {
+  font-size: 28px;
 }
