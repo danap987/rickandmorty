@@ -32,9 +32,9 @@ html, body, #root {
 
  .dark-mode
  {
-  --primary-color:rgb(52, 44, 197);
+  --primary-color: rgb(222, 241, 10);
   --secondary-color: rgb(249, 144, 24);
-  --background-color: rgb(222, 241, 10);
+  --background-color:rgb(52, 44, 197);
  } 
  
  .light-mode
