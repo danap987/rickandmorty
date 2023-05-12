@@ -19,6 +19,8 @@ function Home(): JSX.Element {
                 Nullam nec est sit amet magna dignissim semper ac eget erat. Aliquam gravida vulputate nunc, quis consectetur dui rhoncus eget. Vestibulum rhoncus elit vitae mauris sagittis, lacinia rhoncus orci aliquam. Fusce diam libero, bibendum id congue ut, pharetra vitae lorem. Suspendisse condimentum consequat neque. Donec tempor lectus diam, a dapibus elit eleifend in. Morbi in maximus mi, et laoreet odio. Vestibulum dignissim in eros fermentum ultricies. Ut sit amet metus ut magna auctor viverra id vitae ex. Fusce pulvinar facilisis scelerisque. Vestibulum quis lobortis eros. Maecenas vitae nisl enim. Praesent tristique mauris dictum, euismod neque a, euismod nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus ornare ligula vitae sapien lobortis, in tempus sem hendrerit.
             </p>	
         </div>
+
+        
     );
 }
 
