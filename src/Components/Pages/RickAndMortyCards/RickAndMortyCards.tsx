@@ -17,6 +17,8 @@ function RickAndMortyCards(): JSX.Element {
 
     },[]);
 
+
+
     return (
         <div className="RickAndMortyCards">
 

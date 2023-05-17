@@ -1,15 +1,18 @@
-import { Link } from "react-router-dom";
+import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import "./Menu.css";
+import CustomLink from "../../CustomLink/CustomLink";
+
 
 function Menu(): JSX.Element {
+   
     return (
         <div className="Menu">
             
 
-            <Link to={"home"}>Home 🏘️</Link>
-            <Link to={"about"}>About</Link>
-            <Link to={"rick-and-morty-c"}>Rick and Morty cards</Link>
-            <Link to={"rick-and-morty-t"}>Rick and Morty table</Link>
+            <CustomLink to={"home"}>Home 🏘️</CustomLink>
+            <CustomLink to={"about"}>About</CustomLink>
+            <CustomLink to={"rick-and-morty-c"}>Rick and Morty cards</CustomLink>
+            <CustomLink to={"rick-and-morty-t"}>Rick and Morty table</CustomLink>
         </div>
     );
 }

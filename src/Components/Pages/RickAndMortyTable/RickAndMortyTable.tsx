@@ -12,7 +12,7 @@ function RickAndMortyTable(): JSX.Element {
     const [filterSow, setFilterShow]= useState<string> (``);
 
     useEffect(() => {
-        console.log(123);
+        
         axios.get<ShowModel>('https://rickandmortyapi.com/api/character')
             .then(res => setResults(res.data.results))
             .catch(err => console.log(err));
@@ -35,7 +35,9 @@ function RickAndMortyTable(): JSX.Element {
                 </thead>
                 <tbody>
                     {/* mapping from remote server the tables data: */}
-                    {results.filter(f => f.species.includes(filterSow) || f.status.includes(filterSow) || filterSow === '').map(m =>
+                    {results.filter(f => f.species.includes(filterSow) ||
+                     f.status.includes(filterSow) || filterSow === '')
+                     .map(m =>
                         <tr key={'m'+m.id}>
                             <td>{m.id}</td>
                             <td>{m.name}</td>

@@ -5,6 +5,20 @@
     align-items: center;
     /* padding: 30px; */
     padding-top: 30px;
+
+    color: black;
+	  margin-bottom: 15px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.Menu .active
+{
+    color: royalblue;
+    border-bottom: 3px solid royalblue;
+  font-weight: 700;
+  font-size: xx-large;
+  text-decoration: dashed;
 }
 
 .Menu>* {

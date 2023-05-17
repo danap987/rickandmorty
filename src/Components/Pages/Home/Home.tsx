@@ -4,20 +4,18 @@ function Home(): JSX.Element {
     return (
         <div className="Home">
 		<h2> this is home screen</h2>
-        <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut egestas velit eget lorem efficitur, ut malesuada elit iaculis. Sed facilisis orci semper, fringilla dui ac, pellentesque nulla. Ut enim libero, lacinia quis est non, vulputate vehicula tortor. Donec aliquet quis mi nec bibendum. Nulla pharetra placerat efficitur. Praesent urna elit, luctus vitae suscipit non, congue et elit. Nunc pharetra tristique tortor. Duis pretium tempus pulvinar.
-            </p>
+        <div className="Home">
+			<h1>this is home</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3383.2299091508744!2d34.942543475067055!3d32.00888537399401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d349c9fa2ee29%3A0xfd24f49f1c020f51!2sYasmin%2C%20Shoham!5e0!3m2!1sen!2sil!4v1684319706446!5m2!1sen!2sil" 
+            width='600' height='450'  style={{ border: 0 }} allowFullScreen loading='lazy'
+             referrerPolicy='no-referrer-when-downgrade'></iframe>
 
-            <p>
-                Nullam nec est sit amet magna dignissim semper ac eget erat. Aliquam gravida vulputate nunc, quis consectetur dui rhoncus eget. Vestibulum rhoncus elit vitae mauris sagittis, lacinia rhoncus orci aliquam. Fusce diam libero, bibendum id congue ut, pharetra vitae lorem. Suspendisse condimentum consequat neque. Donec tempor lectus diam, a dapibus elit eleifend in. Morbi in maximus mi, et laoreet odio. Vestibulum dignissim in eros fermentum ultricies. Ut sit amet metus ut magna auctor viverra id vitae ex. Fusce pulvinar facilisis scelerisque. Vestibulum quis lobortis eros. Maecenas vitae nisl enim. Praesent tristique mauris dictum, euismod neque a, euismod nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus ornare ligula vitae sapien lobortis, in tempus sem hendrerit.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut egestas velit eget lorem efficitur, ut malesuada elit iaculis. Sed facilisis orci semper, fringilla dui ac, pellentesque nulla. Ut enim libero, lacinia quis est non, vulputate vehicula tortor. Donec aliquet quis mi nec bibendum. Nulla pharetra placerat efficitur. Praesent urna elit, luctus vitae suscipit non, congue et elit. Nunc pharetra tristique tortor. Duis pretium tempus pulvinar.
-            </p>
-
-            <p>
-                Nullam nec est sit amet magna dignissim semper ac eget erat. Aliquam gravida vulputate nunc, quis consectetur dui rhoncus eget. Vestibulum rhoncus elit vitae mauris sagittis, lacinia rhoncus orci aliquam. Fusce diam libero, bibendum id congue ut, pharetra vitae lorem. Suspendisse condimentum consequat neque. Donec tempor lectus diam, a dapibus elit eleifend in. Morbi in maximus mi, et laoreet odio. Vestibulum dignissim in eros fermentum ultricies. Ut sit amet metus ut magna auctor viverra id vitae ex. Fusce pulvinar facilisis scelerisque. Vestibulum quis lobortis eros. Maecenas vitae nisl enim. Praesent tristique mauris dictum, euismod neque a, euismod nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus ornare ligula vitae sapien lobortis, in tempus sem hendrerit.
-            </p>	
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/38y_1EWIE9I"
+ title="YouTube video player" frameBorder="0" 
+ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowFullScreen></iframe>
+        </div>	
         </div>
 
         
